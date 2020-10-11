@@ -293,7 +293,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 534669904}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -777,6 +777,7 @@ GameObject:
   - component: {fileID: 2092775161}
   - component: {fileID: 2092775160}
   - component: {fileID: 2092775162}
+  - component: {fileID: 2092775163}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -806,9 +807,9 @@ MonoBehaviour:
   rooms: {fileID: 108768910}
   roomMats:
   - {fileID: 2100000, guid: 9293a6acc946adf419cb11b8c84a7c90, type: 2}
-  playerPrefab: {fileID: 2393779635306886730, guid: a531d3ec917f1404b8bc8d2dca7a9b18,
+  playerPrefab: {fileID: 5531675078662750807, guid: 2b72e6051cbc85a40b019480f2786440,
     type: 3}
-  camera: {fileID: 534669906}
+  camera: {fileID: 0}
 --- !u!4 &2092775161
 Transform:
   m_ObjectHideFlags: 0
@@ -836,3 +837,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rooms: []
+--- !u!114 &2092775163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092775159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac26db8ff897b0a4f981a642a547d789, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 3952859627815180353, guid: ffccfa1219f93c640b8779c290580cb0,
+    type: 3}
+  numberOfEnemies: 0
+  enemiesSpawned: 0

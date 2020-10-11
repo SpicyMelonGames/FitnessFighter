@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemySpawningSystem : MonoBehaviour
 {
     public GameObject enemyPrefab;
-    public int numberOfEnemies = 1;
+    public int numberOfEnemies = 0;
     public int enemiesSpawned = 0;
 
 
